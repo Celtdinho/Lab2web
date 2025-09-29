@@ -1,7 +1,9 @@
 # Lab2web
 
 Nama: Naufal Rafi Haryanto
+
 Nim: 312410118
+
 Kelas: TI.24.A1
 
 
