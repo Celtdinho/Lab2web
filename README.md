@@ -125,6 +125,17 @@ Contoh:
 ````
 ![Langkah 1](Langkah3.png)
 
+### 4. Menambahkan CSS Eksternal
+Membuat file style_eksternal.css dan memanggilnya dengan <link> pada <head>.
+
+![Langkah 1](Langkah4.png)
+
+### 5. Menambahkan CSS Selector (ID & Class)
+
+Menambahkan selector ID (#intro) dan Class (.button, .btn-primary).
+
+![Langkah 1](Langkah5.png)
+
 
 ## Jawaban Pertanyaan dan Tugas
 
