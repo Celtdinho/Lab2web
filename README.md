@@ -22,7 +22,7 @@ Cascading Style Sheet (CSS) digunakan untuk mengatur tampilan elemen-elemen HTML
 ### 1. Eksperimen dengan mengubah dan menambah properti CSS
 Contoh perubahan kode CSS:
 
-```css
+````css
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f0f8ff; /* menambahkan background */
@@ -38,15 +38,16 @@ p {
   line-height: 1.8;  /* tambahan untuk jarak antar baris */
   color: #333333;    /* diubah dari default hitam */
 }
-```
+````
 ### 2. Perbedaan h1 { ... } dengan #intro h1 { ... }
-
+````
 h1 { ... } → berlaku untuk semua elemen <h1> di halaman.
 
 #intro h1 { ... } → hanya berlaku untuk <h1> yang berada di dalam elemen dengan id="intro".
-
+````
 Contoh:
-```html
+
+````html
 h1 {
   color: red;
 }
@@ -59,9 +60,8 @@ h1 {
 <div id="intro">
   <h1>Judul di dalam Intro</h1>
 </div>
-```
+````
 Hasil:
-
 “Judul Global” berwarna merah
 
 “Judul di dalam Intro” berwarna biru 
@@ -77,7 +77,7 @@ Internal CSS
 Eksternal CSS
 
 Contoh:
-```html
+````html
 <head>
   <link rel="stylesheet" href="style.css"> <!-- eksternal -->
   <style>
@@ -87,7 +87,7 @@ Contoh:
 <body>
   <p style="color: red;">Teks Paragraf</p> <!-- inline -->
 </body>
-```
+````
 Hasil: paragraf akan berwarna merah, karena inline CSS lebih kuat daripada internal maupun eksternal.
 
 ### 4. Elemen dengan ID dan Class (spesifisitas selector)
@@ -97,7 +97,7 @@ ID (#id) lebih spesifik dibanding Class (.class).
 Jika keduanya digunakan pada elemen yang sama, ID menang.
 
 Contoh:
-```css
+````css
 #paragraf-1 {
   color: blue;
 }
@@ -109,5 +109,15 @@ Contoh:
 <p id="paragraf-1" class="text-paragraf">
   Paragraf contoh
 </p>
-```
+````
 Hasil: teks berwarna biru, karena deklarasi ID lebih spesifik daripada class.
+
+## Kesimpulan
+
+CSS dapat ditulis secara internal, eksternal, dan inline.
+
+Specificity menentukan aturan mana yang digunakan oleh browser.
+
+Urutan prioritas: inline > internal > eksternal, dan ID selector lebih kuat dibanding class selector.
+
+Dengan eksperimen properti CSS, tampilan web bisa dibuat lebih menarik, rapi, dan konsisten.
