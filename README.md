@@ -1,7 +1,11 @@
 # Lab2web
-## Nama: Naufal Rafi Haryanto
-## Nim: 312410118
-## Kelas: TI.24.A1
+
+Nama: Naufal Rafi Haryanto
+Nim: 312410118
+Kelas: TI.24.A1
+
+
+
 
 ## Praktikum 2: CSS Dasar
 
