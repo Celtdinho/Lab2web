@@ -27,6 +27,105 @@ Cascading Style Sheet (CSS) digunakan untuk mengatur tampilan elemen-elemen HTML
 
 ---
 
+# Praktikum 2: CSS Dasar
+
+## Tujuan
+1. Mahasiswa mampu memahami konsep dasar CSS.  
+2. Mahasiswa mampu memahami aturan penulisan pada CSS.  
+3. Mahasiswa mampu memahami selector sebagai pengontrol CSS.  
+4. Mahasiswa mampu membuat pengaturan CSS pada HTML.  
+
+---
+
+## Pengantar
+Cascading Style Sheet (CSS) digunakan untuk mengatur tampilan elemen-elemen HTML agar lebih terstruktur dan konsisten. CSS dapat ditulis dalam tiga cara:
+- **Internal CSS** → ditulis di dalam tag `<style>` pada file HTML.  
+- **Eksternal CSS** → ditulis di file `.css` terpisah dan dipanggil dengan `<link>`.  
+- **Inline CSS** → ditulis langsung dalam atribut `style=""` pada elemen HTML.  
+
+---
+
+## Langkah Praktikum
+
+### 1. Membuat Dokumen HTML
+Membuat file `lab2_css_dasar.html` dengan struktur dasar HTML.  
+
+📸 **Screenshot Hasil:**  
+![Langkah 1](Langkah1.png)
+
+---
+
+### 2. Menambahkan CSS Internal
+Menambahkan deklarasi internal CSS di dalam tag `<style>` pada bagian `<head>`.  
+
+📸 **Screenshot Hasil:**  
+![Langkah 2](Langkah2.png)
+
+---
+
+### 3. Menambahkan Inline CSS
+Menambahkan deklarasi CSS langsung pada elemen HTML.
+
+Contoh:  
+
+```html
+<p style="text-align: center; color: #ccd8e4;">
+  Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b> 
+  di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah 
+  membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.
+</p>
+```
+# Praktikum 2: CSS Dasar
+
+## Tujuan
+1. Mahasiswa mampu memahami konsep dasar CSS.  
+2. Mahasiswa mampu memahami aturan penulisan pada CSS.  
+3. Mahasiswa mampu memahami selector sebagai pengontrol CSS.  
+4. Mahasiswa mampu membuat pengaturan CSS pada HTML.  
+
+---
+
+## Pengantar
+Cascading Style Sheet (CSS) digunakan untuk mengatur tampilan elemen-elemen HTML agar lebih terstruktur dan konsisten. CSS dapat ditulis dalam tiga cara:
+- **Internal CSS** → ditulis di dalam tag `<style>` pada file HTML.  
+- **Eksternal CSS** → ditulis di file `.css` terpisah dan dipanggil dengan `<link>`.  
+- **Inline CSS** → ditulis langsung dalam atribut `style=""` pada elemen HTML.  
+
+---
+
+## Langkah Praktikum
+
+### 1. Membuat Dokumen HTML
+Membuat file `lab2_css_dasar.html` dengan struktur dasar HTML.  
+
+📸 **Screenshot Hasil:**  
+![Langkah 1](Langkah1.png)
+
+---
+
+### 2. Menambahkan CSS Internal
+Menambahkan deklarasi internal CSS di dalam tag `<style>` pada bagian `<head>`.  
+
+📸 **Screenshot Hasil:**  
+![Langkah 2](Langkah2.png)
+
+---
+
+### 3. Menambahkan Inline CSS
+Menambahkan deklarasi CSS langsung pada elemen HTML.  
+
+Contoh:  
+
+```html
+<p style="text-align: center; color: #ccd8e4;">
+  Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b> 
+  di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah 
+  membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.
+</p>
+````
+![Langkah 1](Langkah3.png)
+
+
 ## Jawaban Pertanyaan dan Tugas
 
 ### 1. Eksperimen dengan mengubah dan menambah properti CSS
